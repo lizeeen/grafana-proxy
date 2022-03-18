@@ -247,7 +247,6 @@ func requestIDFromContext(ctx context.Context) string {
 
 func main() {
 	//loadLogin(context.Background())
-
 	var err error
 	base, err = url.Parse(cfg.BaseURL)
 	if err != nil {
